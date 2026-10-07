@@ -22,9 +22,27 @@ forward(680)
 end_fill()
 #middle body
 penup()
-goto(-300, 200)
+goto(-300, 220)
+pendown()
+color("#9c9ee0")
+begin_fill()
+for i in range(4):
+    forward(-570)
+    left(-90)
+end_fill()
 #bottom shelf part
-
+penup()
+goto(350, -220)
+pendown()
+pensize(3)
+color("#b9baff")
+begin_fill()
+circle(25,-180)
+right(180)
+forward(680)
+circle(-25,180)
+forward(680)
+end_fill()
 #dictionary
 
 #writing out dictionary against the main body
